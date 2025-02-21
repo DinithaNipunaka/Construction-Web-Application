@@ -1,0 +1,123 @@
+/* CSS Document */
+
+body {
+	margin: auto;
+	height: 500px;
+	padding: 20px;
+}
+
+#header {
+	width: 700px;
+	color: maroon;
+	font-size: 32px;
+	padding: 10px 10px 10px 0px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid green;
+}
+
+#footer {
+	border-top: 1px solid green;
+	margin-top: 20px;
+	color: #336699;
+	padding-top: 10px;	
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.icardbg {
+    background: yellow;
+    box-shadow: 0 4px 30px rgb(0, 0, 0);
+    backdrop-filter: blur(5.1px);
+    -webkit-backdrop-filter: blur(5.1px);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+img {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+marquee {
+    width: 100%;
+    color: rgb(255, 0, 0);
+  }
+
+/* .lgbg {
+	background: rgb(255, 41, 219);
+} */
+
+.fmt {
+	margin-top: -38px;
+}
+
+th, td {
+	border-radius: 10px;
+  }
+
+  .tablebg {
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(0, 0, 0);
+    backdrop-filter: blur(5.1px);
+    -webkit-backdrop-filter: blur(5.1px);
+    /* border: 1px solid rgb(255, 255, 255); */
+}
+
+.logbtn {
+  background: #336699;
+}
+
+.logbtn:hover {
+  background: #001f3d;
+}
+
+.regbtn {
+  background: #336699;
+}
+
+.regbtn:hover {
+  background: #001f3d;
+}
+
+.btnc {
+  background: white !important;
+}
+
+.btnc:hover {
+  background: rgb(255, 133, 133) !important;
+  color: #010439 !important;
+}
+
+.btnviewapp {
+  background: #ffffff !important;
+  color: #000000 !important;
+  padding: 50px 170px !important;
+  font-size: 20px !important;
+}
+
+.btnviewapp:hover {
+  background: #f5ffc7 !important;
+  color: #5050ff !important;
+}
+
+.homee {
+    min-height: 100vh;
+    /* display: flex; */
+    align-items: center;
+    background: url(../img/bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+	animation: change 5s infinite ease-in-out; 
+}
+
+@keyframes change {
+  0%{
+      background-image: url(../img/bg.jpg);
+  }
+  80%{
+      background-image: url(../img/bg2.jpg);
+  }
+
+}

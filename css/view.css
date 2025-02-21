@@ -1,0 +1,281 @@
+/* Main styles */
+body.main-container {
+  background: linear-gradient(135deg, #faf6fc 0%, #edf1f7 100%);
+  font-family: 'Poppins', sans-serif;
+  min-height: 100vh;
+}
+
+/* Navbar styles */
+.navc {
+  background: linear-gradient(135deg, #db38f4 0%, #12100e 100%) !important;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.navbar-brand:hover {
+  transform: translateY(-2px) scale(1.02);
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+/* Buttons */
+.btnprofile {
+  background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-weight: 500;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 6px rgba(74, 144, 226, 0.2);
+}
+
+.btnprofile:hover {
+  background: linear-gradient(135deg, #357abd 0%, #2d6da3 100%) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(74, 144, 226, 0.3);
+}
+
+.btnprofiledropdown {
+  background: linear-gradient(135deg, #357abd 0%, #357abd 100%) !important;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(74, 144, 226, 0.2);
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Updated dropdown menu item styles */
+.btnprofiledropdown li a {
+  background: transparent !important;
+  color: white !important;
+  transition: all 0.3s ease;
+  padding: 12px 20px;
+  font-weight: 500;
+}
+
+/* Profile link styles */
+.btnprofiledropdown li a:not(.btnprofiledropdownlogout) {
+  color: #22c55e !important; /* Green color for profile */
+}
+
+/* Logout link styles */
+.btnprofiledropdownlogout {
+  color: #ef4444 !important; /* Red color for logout */
+}
+
+.btnprofiledropdown li a:hover {
+  background: rgba(255,255,255,0.1) !important;
+  transform: translateX(5px);
+}
+
+/* Cards */
+.cardc {
+  border-radius: 16px;
+  border: none;
+  background: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.cardc:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
+
+.p1css {
+  background: white !important;
+}
+
+.card-header {
+  background: linear-gradient(135deg, rgba(74, 144, 226, 0.1) 0%, rgba(74, 144, 226, 0.05) 100%);
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  padding: 20px;
+  border-radius: 16px 16px 0 0;
+}
+
+.card-header h4 {
+  color: #2b4162;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Input groups */
+.input-group {
+  margin-bottom: 15px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  transition: all 0.3s ease;
+}
+
+.input-group:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.input-group-text {
+  background: linear-gradient(135deg, #7a4ae2 0%, #357abd 100%) !important;
+  color: white;
+  border: none;
+  min-width: 130px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+.form-control {
+  border: 1px solid #e8ecef;
+  padding: 12px;
+  transition: all 0.3s;
+  font-size: 0.95rem;
+}
+
+.form-control:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 0.2rem rgba(74, 144, 226, 0.15);
+}
+
+/* Pills/Tabs */
+.btnpill {
+  background: transparent !important;
+  color: #4a90e2 !important;
+  border-radius: 25px;
+  margin: 5px;
+  padding: 10px 20px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid #4a90e2;
+  font-weight: 500;
+}
+
+.btnpill:hover {
+  background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%) !important;
+  color: white !important;
+  transform: translateY(-2px);
+}
+
+.btnpill.active {
+  background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%) !important;
+  color: white !important;
+  box-shadow: 0 4px 8px rgba(74, 144, 226, 0.25);
+}
+
+/* Images */
+.image-box {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: pointer;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.image-box:hover {
+  transform: scale(1.05) translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* Modal */
+.modi {
+  background: linear-gradient(135deg, #2b4162 0%, #12100e 100%) !important;
+  color: white !important;
+  border-radius: 16px !important;
+  overflow: hidden;
+}
+
+.modal-header {
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding: 20px;
+}
+
+.modal-footer {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  padding: 20px;
+}
+
+.btnclose {
+  background: white !important;
+  color: #2b4162 !important;
+  border-radius: 8px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 8px 16px;
+  font-weight: 500;
+}
+
+.btnclose:hover {
+  background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%) !important;
+  color: white !important;
+  transform: translateY(-2px);
+}
+
+/* Radio buttons */
+.radio-inline {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+  height: 100%;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.radio-inline:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+  border-color: #4a90e2;
+}
+
+.radio-inline input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { 
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.tab-pane {
+  animation: fadeIn 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Text elements */
+.text-bg-secondary {
+  background: linear-gradient(135deg, #2b4162 0%, #12100e 100%) !important;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .btnpill {
+    width: 100%;
+    margin: 5px 0;
+  }
+  
+  .input-group {
+    flex-direction: column;
+  }
+  
+  .input-group-text {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .form-control {
+    border-radius: 0 0 8px 8px;
+  }
+ 
+}

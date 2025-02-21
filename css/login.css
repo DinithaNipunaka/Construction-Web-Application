@@ -1,0 +1,30 @@
+.btnlogin {
+    color: #ffffff !important;
+    background: #05bd1a !important;
+}
+
+.btnlogin:hover {
+    color: #220000 !important;
+    background: #0606dc !important;
+}
+
+.bgg {
+    background: url(../img/indexbg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.modi {
+    background-color: #7373ff !important;
+    color: #ffffff !important;
+  }
+
+  .btnprofile {
+    background: #5050ff !important;
+    color: white !important;
+  }
+  
+  .btnprofile:hover {
+    background: #ff6162 !important;
+    /* color: #5050ff !important; */
+  }
